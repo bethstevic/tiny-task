@@ -49,9 +49,9 @@ export class TasksComponent {
     this.taskDrag = false;
     this.dragOperation = true;
     console.log("enable phase drag:", this.taskEditing, this.taskDrag, this.dragOperation);
-    
+
     this.taskEditingChange.emit(this.taskEditing);
     this.dragOperationChange.emit(this.dragOperation);
-    this.taskDragChange.emit(this.taskDrag); 
+    this.taskDragChange.emit(this.taskDrag);
   }
 }
